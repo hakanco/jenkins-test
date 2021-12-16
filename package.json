@@ -19,5 +19,9 @@
   "homepage": "https://github.com/hakanco/jenkins-test#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "supertest": "^6.1.6"
   }
 }
