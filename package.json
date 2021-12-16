@@ -1,6 +1,23 @@
-"scripts": {
-
-"start": "node index.js",
-"test": "jest"
-
+{
+  "name": "jenkins-test",
+  "version": "1.0.0",
+  "description": "Node app to learn jenkins",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakanco/jenkins-test.git"
+  },
+  "author": "hakan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hakanco/jenkins-test/issues"
+  },
+  "homepage": "https://github.com/hakanco/jenkins-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
